@@ -1,0 +1,124 @@
+@import 'utility';
+*{
+  font-family: Helvetica;
+  position: relative;
+}
+.googleimg{
+  display: block;
+  margin-right: 30%;
+  margin-left: auto;
+max-width:55%;
+}
+.profile{
+  display: block;
+  border-radius: 50%;
+  margin-right:50%;
+  margin-left: 90%;
+
+}
+input{
+  display: block;
+margin-left: auto;
+  margin-right: auto;
+  font-size:1.5em;
+border-radius: 10%;
+  width:80%;
+}
+.all, .images, .fi-thumbnails{
+  text-decoration: underline $googleblue;
+  color:$googleblue;
+  position: relative;
+  top:1em;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.search-button{
+  position: relative;
+  bottom: 2em;
+right: -14.5em;
+  opacity: 1;
+}
+#google-search, #feeling-lucky{
+  opacity: 0;
+}
+@media screen and (min-width: 20em){
+  .search-button{
+    right:-20em;}
+}
+@media screen and (min-width: 25em){
+  .search-button{
+    right:-24em;
+  }
+}
+@media screen and (min-width: 30em){
+  .search-button{
+    right:-29.2em;
+  }
+}
+@media screen and (min-width: 35em) {
+  .search-button{
+    right:-31.5em;
+  }
+}
+@media screen and (min-width: 38em) {
+  .search-button{
+    right:-35.2em;
+  }
+}
+@media screen and (min-width: 40em) {
+  .search-button{
+    right:-37.2em;
+  }
+}
+
+@media screen and (min-width: 43em) {
+  .search-button{
+    right:-39.5em;
+  }
+}
+@media screen and (min-width: 47em) {
+  .search-button{
+    right:-42.5em;
+  }
+}
+@media screen and (min-width: 50em) {
+  .search-button{
+    right:-47.5em;
+  }
+}
+
+@media screen and (min-width: 55em){
+.search-button{
+  opacity: 0;
+}
+  input{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+  }
+  .googleimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #google-search, #feeling-lucky{
+    opacity: 1;
+  }
+  button{
+    border: 0.1em solid #bfbfbf;
+    background-color: lightgrey;
+    padding: 0.5em;
+  }
+  #google-search{
+    float: left;
+    margin-left: 20em;
+  }
+}
+@media screen and (min-width: 60em){
+  #feeling-lucky{
+    float: right;
+    margin-right: 20em;
+  }
+}
+

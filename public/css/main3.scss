@@ -1,0 +1,186 @@
+@font-face {
+font-family: Helvetica;
+  src: url('../font/HELR45W.woff') format('woff');}
+body{
+  background-color: rgb(235, 235, 235);
+  color : rgb(90, 90, 90);
+
+}
+.intuit{
+  text-align: center;
+  font-size: 70px;
+
+  width:500px;
+  margin-left:20%;
+  margin-bottom: 60px;
+}
+.tagline{
+  margin-left: 25%;
+  font-size:70px;
+  line-height:1;
+}
+.bottom-logo{
+  width:700px;}
+.legal-things{
+  font-size: 30px;
+  margin-top: 5%;
+
+  width: 850px;
+  margin-left: 10%;
+  padding-left: 5%;
+}
+.main-container{
+  background-color: rgb(255,255,255);
+  width:980px;
+  height:2141px;
+
+  font-size: 40px;
+  line-height: 2;
+}
+.input{
+  width:900px;
+  height:100px;
+  border: solid black 1px;
+  font-size:inherit;
+}
+.intuitsubs{
+  border-bottom: rgb(84, 84, 84) solid 1px;
+  height:210px;
+  margin-left: 10%;
+  width: 80%;
+}
+.product-plug{
+  line-height: 1.2;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+a{
+  font-size:35px;
+}
+.sign-up{
+  padding-left: 18%;
+
+}
+.sign-up-content{
+  padding-left: 5%;
+}
+.subtext{
+  font-size:25px;
+}
+.button{
+
+  width: 80%;
+  font-size: 40px;
+  border-radius: 10px;
+  margin-left: 7%;
+
+}
+.bottom-logo{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 10%;
+  width: 30%;
+  margin-left: 30%;
+}
+#sign-in{
+  position: relative;
+  opacity: 0;
+  float: right;
+  width:100px;
+  bottom: 4em;
+  right: 1.3em;
+}
+.sign-in-text{
+  opacity: 0;
+  float: right;
+  font-size: 0.8em;
+  position: relative;
+right: -3.7em;
+  bottom: 4em;
+}
+.forgot-id{
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 1025px) {
+.main-container{
+  width: 400px;
+  height: 675px;
+  margin-left: 30%;
+  border:solid .5px #565656;
+}
+  .intuitsubs{
+    height: 50px;
+  }
+  .product-plug , a{
+    font-size: 15px;
+  }
+  .ahac{
+    color: white;
+  }
+  .si{
+    color: white;
+  }
+  .title{font-size: 15px;
+    margin-bottom: 3%;}
+  .tagline{
+    font-size: 25px;
+  }
+  .input{
+    width: 350px;
+    height: 35px;
+  }
+  .email-form{
+    margin-bottom: 10%;
+    border:solid .5px #a0372a;
+
+  }
+  .sign-up-content{
+    line-height: .7;
+    font-size: 15px;
+  }
+  .button{
+  font-size:15px;
+
+}
+  .subtext {
+    font-size: 10px;
+  }
+  .legal-things{
+    font-size: 10px;
+    margin-left: 30%;
+  }
+  .bottom-logo{
+    margin-top: 1%;}
+  .intuit{
+    margin-left: 25%;
+    font-size: 40px;
+    margin-bottom: -.3%;
+    margin-top: 5%;
+  }
+  .agreements{
+    line-height: 1;
+  }
+
+#sign-in{
+  opacity: 1;
+}
+  .sign-in-text{
+    opacity: 1;
+  }
+  }
+@media screen and (min-width: 1250px){
+  .main-container{
+    margin-left: 35%;
+  }
+  .intuit{
+    margin-left: 31%;
+  }
+
+}
+
+
+
+
+
